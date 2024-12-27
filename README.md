@@ -1,6 +1,10 @@
 ## Introduction
-APP URL - http://localhost:8000\
-API Documentation - http://localhost:8000/api/documentation
+APP URL - http://localhost:8000 \
+API Documentation - http://localhost:8000/api/documentation \
+Technical specs:
+- PHP ^8.3
+- MariaDB 10
+- Laravel 10 Framework
 
 ## Installation
 
