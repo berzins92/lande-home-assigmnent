@@ -32,7 +32,7 @@ class InvestmentDistribution implements InvestmentDistributionInterface
 
     public function setRoundingReminderInCents(float $totalInvestmentAmount): void
     {
-        $this->distributionRoundingReminderInCents = ($totalInvestmentAmount * pow(10, 2)) % 100;
+        $this->distributionRoundingReminderInCents = bcsub($totalInvestmentAmount, $this->distributedAmount, 2) * pow(10, 2);
     }
 
     public function getRoundingReminderCents(): int
