@@ -1,5 +1,5 @@
 ## Introduction
-APP URL - http://localhost:8000\
+APP URL - http://localhost:8000 \
 API Documentation - http://localhost:8000/api/documentation
 
 ## Installation
