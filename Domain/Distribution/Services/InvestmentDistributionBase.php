@@ -38,7 +38,7 @@ class InvestmentDistributionBase implements InvestmentDistributionServiceInterfa
             $distribution->addInvestment($investment);
         }
 
-        if ($distribution->getTotalInvested() !== $amountValueObject->getAmount()) {
+        if ($distribution->getTotalInvested() != $amountValueObject->getAmount()) {
             throw new Exception('Total amount and total remainders are not equal');
         }
 
