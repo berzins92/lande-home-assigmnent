@@ -6,12 +6,12 @@ API Documentation - http://localhost:8000/api/documentation
 
 Clone repository
 ```bash
-git clone https://github.com/berzins92/home-assignment.git
+git clone https://github.com/berzins92/lande-home-assigmnent.git
 ```
 
 Go to project folder and check if `master` branch is up to date
 ```bash
-cd home-assignment && git pull origin main
+cd lande-home-assigmnent && git pull origin main
 ```
 ___
 ### Environment (no action needed)
